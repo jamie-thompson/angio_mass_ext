@@ -1,9 +1,7 @@
 # angio_mass_ext
 R code associated with the pre-print "No evidence for angiosperm mass extinction at the Cretaceous–Paleogene (K-Pg) boundary"
 
-This code requires the trees available from Igea and Tanentzap (2020) which corrects taxonomy of Smith and Brown (2018), and Qian and Jin (2015) which extends taxonomic coverage of Zanne et al. (2013).  Non-angiosperm lineages need to be pruned.
-
-This code runs CoMET models and CRABS testing.
+This code requires the trees available from Igea and Tanentzap (2020) which corrects taxonomy of Smith and Brown (2018), and Qian and Jin (2015) which extends taxonomic coverage of Zanne et al. (2013).  Non-angiosperm lineages need to be pruned, and trees need to be corrected with force.ultrametric() from phytools.  This code runs CoMET models and CRABS testing, as described in the manuscript.
 
 References:
 
